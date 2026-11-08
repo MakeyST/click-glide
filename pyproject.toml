@@ -7,7 +7,7 @@ name = "click-glide"
 version = "0.1.0"
 description = "Steady vertical pointer glide for Windows, for people who cannot hold the mouse still"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "MakeyST" }]
 keywords = ["accessibility", "mouse", "pointer", "windows"]

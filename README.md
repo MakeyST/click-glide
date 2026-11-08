@@ -44,7 +44,7 @@ per second.
 ## Requirements
 
 - Windows 10 or 11
-- Python 3.9 or newer
+- Python 3.10 or newer
 - No third-party packages
 
 ## Install
@@ -100,7 +100,7 @@ The suite has three layers:
 - `tests/test_win32_live.py` — an opt-in check against the real pointer:
   `set CLICK_GLIDE_LIVE=1` before running pytest.
 
-CI runs the first two layers on Windows for Python 3.9, 3.12 and 3.13.
+CI runs the first two layers on Windows for Python 3.10, 3.12 and 3.13.
 
 ## Limitations
 

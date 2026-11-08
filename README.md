@@ -1,5 +1,9 @@
 # click-glide
 
+[![CI](https://github.com/MakeyST/click-glide/actions/workflows/ci.yml/badge.svg)](https://github.com/MakeyST/click-glide/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://github.com/MakeyST/click-glide)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 A small accessibility helper for Windows: it turns a left click into a steady,
 straight vertical glide. Press the button, the pointer jumps to the centre of
 the screen and travels down at one of ten speeds.

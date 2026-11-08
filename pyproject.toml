@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "click-glide"
+version = "0.1.0"
+description = "Steady vertical pointer glide for Windows, for people who cannot hold the mouse still"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "MakeyST" }]
+keywords = ["accessibility", "mouse", "pointer", "windows"]
+classifiers = [
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Desktop Environment",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+click-glide = "click_glide.cli:entry"
+
+[project.urls]
+Source = "https://github.com/MakeyST/click-glide"
+
+[tool.setuptools.packages.find]
+include = ["click_glide*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
